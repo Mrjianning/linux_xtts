@@ -1,0 +1,13 @@
+{
+    "vcn": "xiaofeng",
+    "vcnModel": "xiaofeng",
+    "language": 1,
+    "speed": 50,
+    "pitch": 50,
+    "volume": 100,
+    "textEncoding": "UTF-8",
+    "text": "警戒区域，请快速离开,请快速离开,警戒区域",
+    "sample_rate": 16000,
+    "bits_per_sample": 16,
+    "channels": 1
+}
