@@ -29,6 +29,8 @@
     "bits_per_sample": 16,
     "channels": 1
 }
+```
+
 请将 `"YOUR_APP_ID"`、`"YOUR_API_KEY"` 和 `"YOUR_API_SECRET"` 替换为您从讯飞平台获得的实际值。
 
 ### 第二步：建立 build 目录并编译项目
