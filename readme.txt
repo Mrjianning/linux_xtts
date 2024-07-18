@@ -29,36 +29,35 @@
     "bits_per_sample": 16,
     "channels": 1
 }
-```
-
 请将 `"YOUR_APP_ID"`、`"YOUR_API_KEY"` 和 `"YOUR_API_SECRET"` 替换为您从讯飞平台获得的实际值。
 
 ### 第二步：建立 build 目录并编译项目
 
 1. 打开终端并导航到项目根目录。
+
 2. 创建 `build` 目录：
 
-```sh
-mkdir build
-```
+   ```sh
+   mkdir build
+   ```
 
 3. 进入 `build` 目录：
 
-```sh
-cd build
-```
+   ```sh
+   cd build
+   ```
 
 4. 使用 CMake 配置项目：
 
-```sh
-cmake ..
-```
+   ```sh
+   cmake ..
+   ```
 
 5. 编译项目：
 
-```sh
-make
-```
+   ```sh
+   make
+   ```
 
 ### 第三步：在 workspace 目录下运行可执行文件
 
@@ -66,16 +65,14 @@ make
 
 2. 在 `workspace` 目录下运行：
 
-```sh
-cd ../workspace
-```
+   ```sh
+   cd ../workspace
+   ```
 
 3. 运行可执行文件：
 
-```sh
-./aikit_test
-```
-
-**注意**：将 `YourExecutableName` 替换为实际生成的可执行文件的名称。
+   ```sh
+   ./aikit_test
+   ```
 
 运行后，程序将读取 `config.json` 中的配置信息，执行语音合成，并生成 `output.wav` 文件。
